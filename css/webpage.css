@@ -1,4 +1,8 @@
 #days{
   font-weight:bold;
-  color:#666;
+  text-decoration: underline;
+}
+
+#workouttable{
+  border: 1px solid black;
 }
