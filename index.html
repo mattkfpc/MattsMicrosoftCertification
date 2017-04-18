@@ -2,10 +2,12 @@
 <!-- Learned concepts
 1. header, footer
 2. nav element: navigation
-3. hgroup: organizes header, subheaders
+3. hgroup: organizes header, subheaders..hgroup is now dead
 4. article: whole entry
 5. section: different from article. break down a page into granular details
 6. aside: content that doesn't fall within the main content
+7. figcaption, figure: self-explanatory
+8. progress: determinate vs indeterminate
 
 -->
 <html>
@@ -28,12 +30,19 @@
     </nav>
   </header>
 
-<!--First article-->
+<!--1st article(Progress)-->
   <article>
     <header>
-      <hgroup>
+      <h1>Fitness Level</h1>
+      <span>0</span>
+      <progress value="20" max="100"></progress>
+      <span>100</span>
+    </header>
+  </article>
+<!--2nd article(Introduction)-->
+  <article>
+    <header>
         <h1>Introduction</h1>
-      </hgroup>
     </header>
     <section>
       <h1>Disclaimer</h1>
@@ -50,12 +59,10 @@
     </section>
   </article>
 
-<!--Second article-->
+<!--3rd article (Schedule)-->
   <article>
     <header>
-      <hgroup>
         <h1>Schedule</h1>
-      </hgroup>
       <section>
         <h1>Monday</h1>
         <p>add table here</p>
