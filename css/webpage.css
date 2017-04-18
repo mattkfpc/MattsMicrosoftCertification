@@ -4,6 +4,10 @@
   color: #000000;
 }
 
+#webtitle{
+  text-align: center;
+}
+
 table, thead, tr, td {
   border: 1px solid black;
 }
