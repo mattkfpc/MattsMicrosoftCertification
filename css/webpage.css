@@ -4,6 +4,10 @@
   color: #000000;
 }
 
+#navilinks{
+  text-align:center;
+}
+
 #topheader{
   margin: auto;
   width: 50%;
