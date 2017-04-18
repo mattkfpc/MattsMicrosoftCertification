@@ -4,10 +4,12 @@
   color: #000000;
 }
 
-#webtitle{
-  text-align: center;
+#topheader{
+  margin: auto;
+  width: 50%;
 }
 
 table, thead, tr, td {
   border: 1px solid black;
+  border-collapse: collapse;
 }
